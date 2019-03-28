@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/home_layout_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/home_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/bottom_home"
+            android:text="@string/home"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/home_icon_style"
+            />
+
+        <RadioButton
+            android:id="@+id/bottom_type"
+            style="@style/MainBottomStyle"
+            android:text="@string/type_icon"
+            android:drawableTop="@drawable/type_icon_style"
+            />
+
+        <RadioButton
+            android:id="@+id/bottom_find"
+            android:text="@string/find_icon"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/find_icon_style"
+            />
+
+        <RadioButton
+            android:id="@+id/bottom_shop"
+            android:text="@string/shop_icon"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/shop_icon_style"
+            />
+
+        <RadioButton
+            android:id="@+id/bottom_user"
+            android:text="@string/user_icon"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/user_icon_style"
+            />
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="home">首页</string>
+    <string name="type_icon">分类</string>
+    <string name="find_icon">发现</string>
+    <string name="shop_icon">购物车</string>
+    <string name="user_icon">个人</string>
+    <string name="home_kill_tv">今日闪购 剩余时间：</string>
+    <string name="home_kill_time">00:00:00</string>
+    <string name="home_kill_more">查看更多</string>
+    <string name="home_recommend">新品推荐</string>
+    <string name="home_hot">热卖商品</string>
+
+    <string name="goods_detail">商品详情</string>
+    <string name="share">分享</string>
+    <string name="search">搜索</string>
+    <string name="of">由</string>
+    <string name="send_good">发货</string>
+    <string name="select_type">请选择款式</string>
+    <string name="tips">提示：普通商品享有质量问题7天退货，签收后3个工作日内可换货。其他特殊商品（如手办）的售后以页面说明为准</string>
+    <string name="add_goods">加入购物车</string>
+    <string name="store">收藏</string>
+    <string name="service">联系客服</string>
+</resources>
